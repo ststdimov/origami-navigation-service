@@ -1,0 +1,18 @@
+
+machine:
+  node:
+    version: 6
+# Use npm > 4 to fix https://github.com/npm/npm/issues/14042
+  post:
+  - npm install -g npm@latest
+
+test:
+  override:
+    - make verify
+    - make test
+
+deployment:
+  staging:
+    branch: master
+    commands:
+      - make deploy-ci

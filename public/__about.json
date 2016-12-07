@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"name": "origami-navigation-service",
+	"purpose": "Provides consistent navigation for FT applications.",
+	"audience": "public",
+	"primaryUrl": "https://www.ft.com/__origami/service/navigation/v2",
+	"serviceTier": "platinum",
+	"apiVersion": 2,
+	"apiVersions": [
+		{
+			"path": "/v1",
+			"supportStatus": "deprecated"
+		},
+		{
+			"path": "/v2",
+			"supportStatus": "active"
+		}
+	],
+	"dateCreated": "2016-12-07",
+	"contacts": [
+		{
+			"name": "Origami team",
+			"email": "origami.support@ft.com",
+			"rel": "owner",
+			"domain": "All support enquiries"
+		}
+	],
+	"links": [
+		{
+			"TODO": "copy structure from Image Service"
+		}
+	]
+}
