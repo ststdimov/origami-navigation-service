@@ -11,8 +11,8 @@ test:
     - make verify
     - make test
 
-# deployment:
-#   staging:
-#     branch: master
-#     commands:
-#       - make deploy-ci
+deployment:
+  staging:
+    branch: master
+    commands:
+      - make deploy-ci
