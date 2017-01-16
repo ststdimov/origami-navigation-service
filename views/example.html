@@ -156,7 +156,7 @@
 			<ul class="o-header__drawer-menu-list">
 				{{#each navigationLists.anon.items}}
 					<li class="o-header__drawer-menu-item">
-						<a class="o-header__drawer-menu-link" href="{{url}}" data-trackable="{{label}}">
+						<a class="o-header__drawer-menu-link" href="{{replace url "${currentPath}" @root.currentPath}}" data-trackable="{{label}}">
 							{{label}}
 						</a>
 					</li>
@@ -220,5 +220,5 @@
 	</div>
 </footer>
 
-<script src="https://build.origami.ft.com/v2/bundles/js?modules=o-header@^6.12.3"></script>
-<link rel="stylesheet" href="https://build.origami.ft.com/v2/bundles/css?modules=o-header@^6.12.3" />
+<script src="https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-header@^6.12.3"></script>
+<link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-header@^6.12.3" />
