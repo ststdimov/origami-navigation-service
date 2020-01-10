@@ -102,8 +102,7 @@ See the live service for more information on how to use.
 
 There are a few things you can try before contacting the Origami team:
 
-1. Verify that S3 is up. See [Navigation Data's `__gtg` endpoint](https://www.ft.com/__origami/service/navigation-data/__gtg).
-2. Restart all of the dynos across the production EU and US Heroku apps ([pipeline here](https://dashboard.heroku.com/pipelines/17603799-00d6-4e45-af5c-c21fb88321aa))
+1. Restart all of the dynos across the production EU and US Heroku apps ([pipeline here](https://dashboard.heroku.com/pipelines/17603799-00d6-4e45-af5c-c21fb88321aa))
 
 ## Second Line Troubleshooting
 
@@ -117,14 +116,12 @@ If only a few things aren't working, the Splunk logs (see monitoring) are the be
 
 ## Monitoring
 
-* [Grafana dashboard][grafana]: graph memory, load, and number of requests
 * [Pingdom check (Production EU)][pingdom-eu]: checks that the EU production app is responding
 * [Pingdom check (Production US)][pingdom-us]: checks that the US production app is responding
 * [Sentry dashboard (Production)][sentry-production]: records application errors in the production app
 * [Sentry dashboard (QA)][sentry-qa]: records application errors in the QA app
 * [Splunk (Production)][splunk]: query application logs
 
-[grafana]: http://grafana.ft.com/dashboard/db/origami-navigation-service
 [pingdom-eu]: https://my.pingdom.com/newchecks/checks#check=2287222
 [pingdom-us]: https://my.pingdom.com/newchecks/checks#check=2287223
 [sentry-production]: https://sentry.io/nextftcom/origami-navigation-service-pro/
@@ -151,4 +148,3 @@ This service uses two keys:
 2. AWS (read/write permissions for a single S3 bucket)
 
 The process for rotating these keys is manual, via the GitHub and AWS interfaces.
-
