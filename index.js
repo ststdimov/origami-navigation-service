@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const navigationService = require('./lib/navigation-service');
 const throng = require('throng');
 
-dotenv.load({
+dotenv.config({
 	silent: true
 });
 const options = {
