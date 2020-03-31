@@ -273,7 +273,6 @@ drawer-uk:
       items:
       - <<: *lex
       - <<: *alphaville
-      - <<: *emsquared
       - <<: *lunch_with_the_ft
       - <<: *globetrotter
       - <<: *tsa
