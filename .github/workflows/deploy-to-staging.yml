@@ -8,6 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      with:
-        fetch-depth: ''
+    - run: git fetch --prune --unshallow
     - run: git push https://heroku:${{ secrets.HEROKU_AUTH_TOKEN }}@git.heroku.com/origami-navigation-service-qa.git HEAD:master --force
