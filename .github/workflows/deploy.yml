@@ -1,0 +1,30 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy-to-staging:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    - run: npm ci
+    - run: make build
+    - run: make deploy
+    
+  create-change-log:
+    needs: [deploy-to-staging]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Financial-Times/change-api-action@v1
+        name: Create new change log
+        with:
+          change-api-key: ${{ secrets.CHANGE_API_KEY }}
+          system-code: "origami-navigation-service-data"
+          environment: prod
+          slack-channels: "ft-changes,origami-deploys"
