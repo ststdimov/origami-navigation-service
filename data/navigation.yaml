@@ -126,8 +126,6 @@ drawer-uk:
         submenu: &markets_submenu
           label:
           items:
-          - <<: *fastft
-            submenu:
           - <<: *alphaville
           - <<: *markets_data
           - <<: *capital_markets
