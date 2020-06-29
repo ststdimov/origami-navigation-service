@@ -1362,7 +1362,7 @@ links:
 
   - &how_to_spend_it
     label: "How to Spend It"
-    url: "https://howtospendit.ft.com/"
+    url: "/htsi"
     submenu:
 
   - &ignites
