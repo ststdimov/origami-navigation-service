@@ -1217,7 +1217,7 @@ links:
     submenu:
 
   - &privacy
-    label: "Privacy Policy"
+    label: "Privacy - CCPA UPDATES"
     url: "http://help.ft.com/help/legal-privacy/privacy/"
     submenu:
 
