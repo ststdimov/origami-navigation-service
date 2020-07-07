@@ -1092,8 +1092,8 @@ links:
     submenu:
 
   - &tsa
-    label: "Tech Scroll Asia"
-    url: "https://www.ft.com/tech-scroll-asia"
+    label: "#techAsia"
+    url: "https://www.ft.com/tech-asia"
     submenu:
 
   - &ftcr
