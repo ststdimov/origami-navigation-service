@@ -2,7 +2,7 @@ name: Create new change log
 on:
   push:
     branches:
-      - $default-branch
+      - master
 
 jobs:
   make-change-log:
