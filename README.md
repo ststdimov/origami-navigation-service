@@ -4,7 +4,6 @@ Origami Navigation Service Data
 
 Provides the data consumed via [origami-navigation-service].
 
-[![Build status](https://img.shields.io/circleci/project/Financial-Times/origami-navigation-data.svg)][ci]
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 
@@ -84,13 +83,13 @@ The code will also need to pass linting on CI, you can run the linter locally wi
 make verify
 ```
 
-We run the tests and linter on CI, you can view [results on CircleCI][ci]. `make test` and `make lint` must pass before we merge a pull request.
+We run the tests and linter on CI, you can view [results on CI][ci]. `make test` and `make lint` must pass before we merge a pull request.
 
 
 Deployment
 ----------
 
-The production data is stored in Fastly. We deploy continuously to production via [CircleCI][ci], you should never need to deploy manually.
+The production data is stored in Fastly. We deploy continuously to production via [CI][ci], you should never need to deploy manually.
 
 
 Monitoring
@@ -107,7 +106,6 @@ License
 The Financial Times has published this software under the [MIT license][license].
 
 
-[ci]: https://circleci.com/gh/Financial-Times/origami-navigation-data
 [license]: http://opensource.org/licenses/MIT
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/

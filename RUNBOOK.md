@@ -74,7 +74,7 @@ Manual
 
 ## Architecture
 
-The navigation data lives as YAML in the service's GitHub repository. Data is modified through the GitHub interface. When a change lands on the `master` branch, it is converted to JSON in CircleCI, and then uploaded to Fastly.
+The navigation data lives as YAML in the service's GitHub repository. Data is modified through the GitHub interface. When a change lands on the `master` branch, it is converted to JSON in CI, and then uploaded to Fastly.
 
 ## More Information
 
@@ -91,7 +91,7 @@ There are a few things you can try before contacting the Origami team:
 If the application is failing entirely, you'll need to check a couple of things:
 
 1. Did a deployment just happen (a commit on `master`)? If so, roll it back to bring the service back up (hopefully)
-2. Is the CircleCI job which uploads the data running correctly? And is the Fastly key up-to-date?
+2. Is the CI job which uploads the data running correctly? And is the Fastly key up-to-date?
 
 
 ## Monitoring
@@ -104,7 +104,7 @@ We recover data by rolling back Git commits and pushing changes to the `master` 
 
 ## Release Details
 
-This service is released whenever a new commit appears on the `master` branch of the GitHub repo. It's released by a CircleCI job which validates the new navigation data and uploads it to Fastly.
+This service is released whenever a new commit appears on the `master` branch of the GitHub repo. It's released by a CI job which validates the new navigation data and uploads it to Fastly.
 
 ## Key Management Details
 
