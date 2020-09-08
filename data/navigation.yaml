@@ -150,7 +150,7 @@ drawer-uk:
               label:
               items:
               - <<: *ftfm
-              - <<: *exchange_traded_funds
+              - <<: *etf_hub
               - <<: *funds_regulation
               - <<: *pensions_industry
           - <<: *trading

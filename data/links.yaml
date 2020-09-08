@@ -476,6 +476,11 @@ links:
     url: "https://markets.ft.com/data"
     submenu:
 
+  - &etf_hub
+    label: "ETF Hub"
+    url: "https://etf.ft.com"
+    submenu:
+
   - &commodities
     label: "Commodities"
     url: "/commodities"
@@ -544,11 +549,6 @@ links:
   - &ftfm
     label: "FTfm"
     url: "/ftfm"
-    submenu:    
-
-  - &exchange_traded_funds
-    label: "Exchange Traded Funds"
-    url: "/ftfm/etfs"
     submenu:
 
   - &investment_strategy
