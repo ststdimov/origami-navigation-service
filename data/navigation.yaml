@@ -150,7 +150,6 @@ drawer-uk:
               label:
               items:
               - <<: *ftfm
-              - <<: *etf_hub
               - <<: *funds_regulation
               - <<: *pensions_industry
           - <<: *trading
@@ -163,6 +162,7 @@ drawer-uk:
               - <<: *otc_markets
               - <<: *derivatives
           - <<: *moral_money
+          - <<: *etf_hub
       - <<: *graphics
       - <<: *opinion
         submenu: &opinion_submenu
