@@ -1043,7 +1043,7 @@ links:
 
   - &alphaville
     label: "Alphaville"
-    url: "https://ftalphaville.ft.com"
+    url: "/alphaville"
     submenu:
 
   - &special_reports
