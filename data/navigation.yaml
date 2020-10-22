@@ -247,9 +247,10 @@ drawer-uk:
               items:
               - <<: *globetrotterlondon
               - <<: *globetrotterparis
-              - <<: *globetrotterhongkong
-              - <<: *globetrotternewyorkcity
+              - <<: *globetrotterrome
               - <<: *globetrotterfrankfurt
+              - <<: *globetrotternewyorkcity
+              - <<: *globetrotterhongkong
               - <<: *globetrottertokyo
       - <<: *personal_finance
         submenu: &personal_finance_submenu
