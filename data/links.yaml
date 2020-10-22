@@ -926,6 +926,11 @@ links:
     url: "/globetrotter/tokyo"
     submenu:
 
+  - &globetrotterrome
+    label: "Rome"
+    url: "/globetrotter/rome"
+    submenu:
+
   - &style
     label: "Style"
     url: "/style"
