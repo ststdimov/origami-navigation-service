@@ -271,6 +271,7 @@ drawer-uk:
       label:
       items:
       - <<: *lex
+      - <<: *climate_capital
       - <<: *alphaville
       - <<: *lunch_with_the_ft
       - <<: *globetrotter
