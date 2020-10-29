@@ -990,6 +990,11 @@ links:
     label: "Television"
     url: "/television"
     submenu:
+    
+  - &climate_capital
+    label: "Climate"
+    url: "/climate-capital"
+    submenu:    
 
   - &business_education
     label: "Business Education"
