@@ -174,7 +174,6 @@ drawer-uk:
           - <<: *lex
           - <<: *obituaries
           - <<: *letters
-          - <<: *alphaville
       - <<: *work_careers
         submenu: &work_careers_submenu
           label:
