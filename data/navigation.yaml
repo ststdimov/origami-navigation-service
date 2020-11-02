@@ -163,6 +163,7 @@ drawer-uk:
               - <<: *derivatives
           - <<: *moral_money
           - <<: *etf_hub
+      - <<: *climate_capital
       - <<: *graphics
       - <<: *opinion
         submenu: &opinion_submenu
@@ -269,7 +270,6 @@ drawer-uk:
       label:
       items:
       - <<: *lex
-      - <<: *climate_capital
       - <<: *alphaville
       - <<: *lunch_with_the_ft
       - <<: *globetrotter
