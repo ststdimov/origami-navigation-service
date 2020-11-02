@@ -153,7 +153,7 @@ drawer-uk:
               - <<: *funds_regulation
               - <<: *pensions_industry
           - <<: *trading
-            submenu:    
+            submenu:
               label:
               items:
               - <<: *clearing_settlement
@@ -171,23 +171,23 @@ drawer-uk:
           - <<: *columnists
           - <<: *ft_view
           - <<: *the_big_read
-          - <<: *lex
-          - <<: *obituaries
-          - <<: *letters
-      - <<: *work_careers
-        submenu: &work_careers_submenu
-          label:
-          items:
-          - <<: *business_school_rankings
-          - <<: *business_education
-            submenu:
+          - <<: *work_careers
+            submenu: &work_careers_submenu
               label:
               items:
               - <<: *business_school_rankings
-          - <<: *entrepreneurship
-          - <<: *recruitment
-          - <<: *business_books
-          - <<: *business_travel          
+              - <<: *business_education
+                submenu:
+                  label:
+                  items:
+                  - <<: *business_school_rankings
+              - <<: *entrepreneurship
+              - <<: *recruitment
+              - <<: *business_books
+              - <<: *business_travel
+          - <<: *lex
+          - <<: *obituaries
+          - <<: *letters
       - <<: *life_arts
         submenu: &life_arts_submenu
           label:
@@ -318,8 +318,6 @@ drawer-international:
       - <<: *graphics
       - <<: *opinion
         submenu: *opinion_submenu
-      - <<: *work_careers
-        submenu: *work_careers_submenu
       - <<: *life_arts
         submenu: *life_arts_submenu
       - <<: *personal_finance
@@ -451,8 +449,6 @@ navbar-uk:
   - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
-  - <<: *work_careers
-    submenu: *work_careers_submenu
   - <<: *life_arts
     submenu: *life_arts_submenu
   - <<: *how_to_spend_it
@@ -473,8 +469,6 @@ navbar-international:
   - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
-  - <<: *work_careers
-    submenu: *work_careers_submenu
   - <<: *life_arts
     submenu: *life_arts_submenu
   - <<: *how_to_spend_it
