@@ -171,11 +171,10 @@ drawer-uk:
           - <<: *columnists
           - <<: *ft_view
           - <<: *the_big_read
-          - <<: *instant_insight
           - <<: *lex
-          - <<: *alphaville
           - <<: *obituaries
           - <<: *letters
+          - <<: *alphaville
       - <<: *work_careers
         submenu: &work_careers_submenu
           label:
