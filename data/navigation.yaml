@@ -315,6 +315,7 @@ drawer-international:
       - <<: *technology
       - <<: *markets
         submenu: *markets_submenu
+      - <<: *climate_capital
       - <<: *graphics
       - <<: *opinion
         submenu: *opinion_submenu
@@ -446,6 +447,7 @@ navbar-uk:
   - <<: *technology
   - <<: *markets
     submenu: *markets_submenu
+  - <<: *climate_capital
   - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
@@ -466,6 +468,7 @@ navbar-international:
   - <<: *technology
   - <<: *markets
     submenu: *markets_submenu
+  - <<: *climate_capital
   - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
