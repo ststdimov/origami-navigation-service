@@ -1,6 +1,6 @@
 {
 	"description": "Provides the data consumed via origami-navigation-service.",
-	"origamiType": null,
+	"origamiType": "library",
 	"origamiVersion": 1,
 	"keywords": [
 		"origami"
