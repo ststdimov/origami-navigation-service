@@ -404,7 +404,7 @@ footer:
         submenu:
       - <<: *alerts_hub
         submenu:
-      - <<: *mba_rankings
+      - <<: *business_school_rankings
         submenu:
       - <<: *enterprise_tools
         submenu:
