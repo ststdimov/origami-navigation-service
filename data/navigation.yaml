@@ -272,6 +272,7 @@ drawer-uk:
     submenu: &recommends_submenu
       label:
       items:
+      - <<: *graphics
       - <<: *lex
       - <<: *alphaville
       - <<: *lunch_with_the_ft
