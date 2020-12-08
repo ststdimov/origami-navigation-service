@@ -319,7 +319,6 @@ drawer-international:
       - <<: *markets
         submenu: *markets_submenu
       - <<: *climate_capital
-      - <<: *graphics
       - <<: *opinion
         submenu: *opinion_submenu
       - <<: *life_arts
@@ -451,7 +450,6 @@ navbar-uk:
   - <<: *markets
     submenu: *markets_submenu
   - <<: *climate_capital
-  - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
   - <<: *life_arts
@@ -472,7 +470,6 @@ navbar-international:
   - <<: *markets
     submenu: *markets_submenu
   - <<: *climate_capital
-  - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
   - <<: *life_arts
