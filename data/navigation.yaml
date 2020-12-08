@@ -167,7 +167,6 @@ drawer-uk:
           - <<: *moral_money
           - <<: *etf_hub
       - <<: *climate_capital
-      - <<: *graphics
       - <<: *opinion
         submenu: &opinion_submenu
           label:
@@ -175,23 +174,23 @@ drawer-uk:
           - <<: *columnists
           - <<: *ft_view
           - <<: *the_big_read
-          - <<: *work_careers
-            submenu: &work_careers_submenu
-              label:
-              items:
-              - <<: *business_school_rankings
-              - <<: *business_education
-                submenu:
-                  label:
-                  items:
-                  - <<: *business_school_rankings
-              - <<: *entrepreneurship
-              - <<: *recruitment
-              - <<: *business_books
-              - <<: *business_travel
           - <<: *lex
           - <<: *obituaries
           - <<: *letters
+      - <<: *work_careers
+        submenu: &work_careers_submenu
+          label:
+          items:
+          - <<: *business_school_rankings
+          - <<: *business_education
+            submenu:
+              label:
+              items:
+              - <<: *business_school_rankings
+          - <<: *entrepreneurship
+          - <<: *recruitment
+          - <<: *business_books
+          - <<: *business_travel
       - <<: *life_arts
         submenu: &life_arts_submenu
           label:
