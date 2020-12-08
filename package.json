@@ -28,7 +28,7 @@
     "fs-extra": "^9.0.1",
     "heads": "^1.2.0",
     "istanbul": "^0.4.5",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.1",
     "minimist": "^1.2.5",
     "mocha": "^8.2.1",
     "mockery": "^2.0.0",
