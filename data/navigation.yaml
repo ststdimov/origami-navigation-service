@@ -364,7 +364,6 @@ footer:
       items:
       - <<: *view_site_tips
       - <<: *help
-      - <<: *contact_us
       - <<: *about_us
       - <<: *accessibility
       - <<: *myft_tour
