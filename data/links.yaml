@@ -1206,6 +1206,11 @@ links:
     url: "http://help.ft.com"
     submenu:
 
+  - &contact_us
+    label: "Contact Us"
+    url: "https://aboutus.ft.com/en-gb/contact-us/"
+    submenu:
+
   - &about_us
     label: "About Us"
     url: "http://www.ft.com/aboutus"
