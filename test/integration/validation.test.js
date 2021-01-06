@@ -25,7 +25,7 @@ describe('Navigation data', () => {
 
 	describe('links', () => {
 
-		const linkYaml = yaml.safeLoad(
+		const linkYaml = yaml.load(
 			fs.readFileSync(
 				path.join(__dirname, '../../data/links.yaml'), 'utf8'
 			)
