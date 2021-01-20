@@ -1303,7 +1303,7 @@ links:
 
   - &ft_transact
     label: "FT Transact"
-    url: "https://transact.ft.com/en-gb/"
+    url: "https://transact.ft.com/"
     submenu:
 
   - &secondary_schools
