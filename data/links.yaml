@@ -1208,7 +1208,7 @@ links:
 
   - &contact_us
     label: "Contact Us"
-    url: "https://aboutus.ft.com/en-gb/contact-us/"
+    url: "https://aboutus.ft.com/contact-us"
     submenu:
 
   - &about_us
