@@ -383,7 +383,9 @@ footer:
     submenu:
       label:
       items:
-      - <<: *conferences_events
+      - <<: *ft_live
+      - <<: *ft_forums
+      - <<: *board_director_programme
       - <<: *securedrop
       - <<: *individual_subscriptions
       - <<: *group_subscriptions
