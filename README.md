@@ -12,8 +12,6 @@ Table Of Contents
 
   * [How to edit navigation data](#how-to-edit-navigation-data)
   * [Requirements](#requirements)
-  * [Running Locally](#running-locally)
-  * [Configuration](#configuration)
   * [Operational Documentation](#operational-documentation)
   * [Testing](#testing)
   * [Deployment](#deployment)
@@ -42,23 +40,6 @@ Requirements
 
 Running Origami Navigation Service Data requires [Node.js] 10 and [npm].
 
-
-Running Locally
----------------
-
-
-Configuration
--------------
-
-
-Operational Documentation
--------------------------
-
-The source documentation for the [runbook](https://dewey.ft.com/origami-navigation-service-data.html) is stored in the `operational-documentation` folder. This is pushed to CMDB upon every promotion to production. You can push them to CMDB manually by running the following command:
-
-```sh
-make update-cmdb
-```
 
 Testing
 -------
