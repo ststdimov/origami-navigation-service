@@ -513,7 +513,7 @@ links:
 
   - &usdollar
     label: "US Dollar"
-    url: "/us_dollar"
+    url: "/us-dollar"
     submenu:
 
   - &euro
@@ -523,7 +523,7 @@ links:
 
   - &poundsterling
     label: "Pound Sterling"
-    url: "/pound_sterling"
+    url: "/pound-sterling"
     submenu:
 
   - &renminbi
