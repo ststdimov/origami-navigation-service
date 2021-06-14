@@ -506,6 +506,36 @@ links:
     url: "/currencies"
     submenu:
 
+  - &ryptocurrencies
+    label: "Cryptocurrencies"
+    url: "/cryptocurrencies"
+    submenu:
+
+  - &usdollar
+    label: "US Dollar"
+    url: "/us-dollar"
+    submenu:
+
+  - &euro
+    label: "Euro"
+    url: "/euro"
+    submenu:
+
+  - &poundsterling
+    label: "Pound Sterling"
+    url: "/pound-sterling"
+    submenu:
+
+  - &renminbi
+    label: "Renminbi"
+    url: "/renminbi"
+    submenu:
+
+  - &yen
+    label: "Yen"
+    url: "/yen"
+    submenu:
+
   - &equities
     label: "Equities"
     url: "/equities"
