@@ -506,7 +506,7 @@ links:
     url: "/currencies"
     submenu:
 
-  - &ryptocurrencies
+  - &cryptocurrencies
     label: "Cryptocurrencies"
     url: "/cryptocurrencies"
     submenu:
