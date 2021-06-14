@@ -139,6 +139,14 @@ drawer-uk:
               - <<: *gold
               - <<: *copper
           - <<: *currencies
+            submenu:
+              label:
+              items:
+              - <<: *usdollar
+              - <<: *euro
+              - <<: *poundsterling
+              - <<: *renminbi
+              - <<: *yen
           - <<: *equities
             submenu:
               label:
@@ -165,6 +173,7 @@ drawer-uk:
               - <<: *derivatives
           - <<: *moral_money
           - <<: *etf_hub
+          - <<: *cryptocurrencies
       - <<: *climate_capital
       - <<: *opinion
         submenu: &opinion_submenu
