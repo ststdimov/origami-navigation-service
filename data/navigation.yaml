@@ -392,9 +392,6 @@ footer:
     submenu:
       label:
       items:
-      - <<: *ft_live
-      - <<: *ft_forums
-      - <<: *board_director_programme
       - <<: *securedrop
       - <<: *individual_subscriptions
       - <<: *group_subscriptions
@@ -426,7 +423,15 @@ footer:
         submenu:
       - <<: *currency_converter
         submenu:
-
+  - label: Community & Events
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *ft_community
+      - <<: *ft_live
+      - <<: *ft_forums
+      - <<: *board_director_programme
 
 navbar-simple:
   label: Navigation

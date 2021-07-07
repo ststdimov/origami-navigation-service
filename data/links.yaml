@@ -1286,6 +1286,11 @@ links:
     url: "http://aboutus.ft.com/company/our-standards/editorial-code"
     submenu:
 
+  - &community_events
+    label: "FT Community"
+    url: "https://www.ft.com/tour/community"
+    submenu:
+
   - &conferences_events
     label: "FT Live"
     url: "http://live.ft.com/"
@@ -1390,6 +1395,10 @@ links:
     label: "FT Chinese"
     url: "http://www.ftchinese.com/"
     submenu:
+
+  - &ft_community
+    <<: *community_events
+    label: "FT Community"
 
   - &ft_live
     <<: *conferences_events
