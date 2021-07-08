@@ -261,7 +261,7 @@ drawer-uk:
               - <<: *globetrotternewyorkcity
               - <<: *globetrotterhongkong
               - <<: *globetrottertokyo
-              - <<: *globetrottersingapore  
+              - <<: *globetrottersingapore
       - <<: *personal_finance
         submenu: &personal_finance_submenu
           label:
@@ -292,6 +292,7 @@ drawer-uk:
       - <<: *video
       - <<: *podcasts
       - <<: *newsfeed
+      - <<: *ft_community_relative
   - label:
     url:
     submenu: &extras_submenu
