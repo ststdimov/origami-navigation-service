@@ -21,6 +21,7 @@
   },
   "main": "./lib/navigation-service.js",
   "scripts": {
+    "build": "node ./src/cli.js --file data/links.yaml --file data/navigation.yaml",
     "start": "heroku-node-settings index.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
@@ -42,6 +43,16 @@
     "throng": "^4.0.0"
   },
   "devDependencies": {
+    "@financial-times/origami-service-makefile": "^7.0.3",
+    "@financial-times/release-log": "^1.1.5",
+    "@quarterto/git-version-infer": "^6.0.0",
+    "ajv": "^4.10.0",
+    "fs-extra": "^10.0.0",
+    "heads": "^1.2.0",
+    "js-yaml": "^4.1.0",
+    "minimist": "^1.2.5",
+    "static-site-fastly-deployer": "github:Financial-Times/static-site-fastly-deployer",
+    "throat": "^6.0.1",
     "@financial-times/grafana-tools": "^2.0.1",
     "eslint": "^7.25.0",
     "istanbul": "^0.4",

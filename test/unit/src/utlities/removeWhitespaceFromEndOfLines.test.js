@@ -18,5 +18,3 @@ describe('removeWhitespaceFromEndOfLines', () => {
 		proclaim.equal(removeWhitespaceFromEndOfLines(file), 'hello\n      world.\n\n\nThis is a test.');
 	});
 });
-
-
