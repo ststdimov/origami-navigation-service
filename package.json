@@ -22,6 +22,7 @@
   "main": "./lib/navigation-service.js",
   "scripts": {
     "build": "node ./src/cli.js --file data/links.yaml --file data/navigation.yaml",
+    "test": "make test",
     "start": "heroku-node-settings index.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
@@ -33,7 +34,6 @@
     "@financial-times/source-param-middleware": "^2.0.0",
     "dotenv": "^8",
     "express": "^4.17.1",
-    "ft-poller": "^3.0.1",
     "heroku-node-settings": "^1.0.2",
     "http-errors": "^1",
     "request": "^2.88.2",
