@@ -1,0 +1,6 @@
+.editorconfig
+.env
+coverage
+node_modules
+npm-debug.log
+build
