@@ -51,7 +51,6 @@
     "heads": "^1.2.0",
     "js-yaml": "^4.1.0",
     "minimist": "^1.2.5",
-    "static-site-fastly-deployer": "github:Financial-Times/static-site-fastly-deployer",
     "throat": "^6.0.1",
     "@financial-times/grafana-tools": "^2.0.1",
     "eslint": "^7.25.0",
