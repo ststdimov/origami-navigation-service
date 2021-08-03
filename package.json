@@ -23,7 +23,7 @@
   "scripts": {
     "build": "node ./src/cli.js --file data/links.yaml --file data/navigation.yaml",
     "test": "make test",
-    "start": "npm run build && heroku-node-settings index.js",
+    "start": "heroku-node-settings index.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
