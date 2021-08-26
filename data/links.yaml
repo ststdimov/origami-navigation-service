@@ -41,11 +41,6 @@ links:
     url: "/markets"
     submenu:
 
-  - &graphics
-    label: Graphics
-    url: "/graphics"
-    submenu:
-
   - &opinion
     label: Opinion
     url: "/opinion"
