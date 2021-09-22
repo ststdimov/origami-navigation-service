@@ -321,6 +321,11 @@ links:
     url: "/companies/utilities"
     submenu:
 
+  - &energy_source
+    label: "Energy Source"
+    url: "/energy-source"
+    submenu:    
+
   - &retail_consumer
     label: "Retail & Consumer"
     url: "/companies/retail-consumer"
