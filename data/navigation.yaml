@@ -71,6 +71,7 @@ drawer-uk:
               - <<: *mining
               - <<: *oil_gas
               - <<: *utilities
+              - <<: *energy_source
           - <<: *financials
             submenu:
               label:
