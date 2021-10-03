@@ -1038,12 +1038,12 @@ links:
 
   - &business_school_rankings
     label: 'Business School Rankings'
-    url: 'http://rankings.ft.com/businessschoolrankings/rankings'
+    url: 'https://rankings.ft.com/'
     submenu:
 
   - &mba_rankings
     label: "MBA Rankings"
-    url: "http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2020"
+    url: "https://rankings.ft.com/home/masters-in-business-administration"
     submenu:
 
   - &applying_to_a_business_school
