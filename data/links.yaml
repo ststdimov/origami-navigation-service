@@ -946,6 +946,11 @@ links:
     url: "/globetrotter/new-york-city"
     submenu:
 
+  - &globetrottermiami
+    label: "Miami"
+    url: "/globetrotter/miami"
+    submenu:
+
   - &globetrotterfrankfurt
     label: "Frankfurt"
     url: "/globetrotter/frankfurt"
