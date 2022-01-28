@@ -55,6 +55,7 @@ drawer-uk:
               - <<: *ukraine_conflict
           - <<: *latin_america
           - <<: *middle_east_and_africa
+          - <<: *australia
           - <<: *ukraine_conflict
       - <<: *uk
         submenu: &uk_submenu
