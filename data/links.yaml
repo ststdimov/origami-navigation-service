@@ -252,7 +252,7 @@ links:
     submenu:
 
   - &middle_east_and_africa
-    label: "Middle East and North Africa"
+    label: "Middle East & North Africa"
     url: "/world/mideast"
     submenu:
 
