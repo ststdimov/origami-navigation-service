@@ -231,6 +231,11 @@ links:
     url: "/oceania/australia"
     submenu:
 
+  - &australia_nz
+    label: "Australia & NZ"
+    url: "/australia-newzealand"
+    submenu:
+
   - &ukraine_conflict
     label: "Ukraine conflict"
     url: "/ukraine-conflict"
