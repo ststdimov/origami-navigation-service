@@ -237,8 +237,8 @@ links:
     submenu:
 
   - &ukraine_conflict
-    label: "Ukraine conflict"
-    url: "/ukraine-conflict"
+    label: "War in Ukraine"
+    url: "/war-in-ukraine"
     submenu:
 
   - &africa
