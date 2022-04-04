@@ -5,15 +5,12 @@
 // 	'items': [item]
 // }
 const menu = {
-	id: 'menu',
+	$id: 'menu',
 	required: ['label', 'items'],
 	properties: {
 		label: {
-			anyOf: [{
-				type: 'null'
-			}, {
-				type: 'string'
-			}]
+			type: 'string',
+			nullable: true
 		},
 		items: {
 			type: 'array',
@@ -22,7 +19,7 @@ const menu = {
 			items: {
 				$ref: 'item'
 			},
-			additionalItems: false
+			// additionalItems: false
 		}
 	},
 	additionalProperties: false
@@ -35,24 +32,18 @@ const menu = {
 // }
 
 const item = {
-	id: 'item',
+	$id: 'item',
 	type: 'object',
 	required: ['label', 'url', 'submenu'],
 	properties: {
 		label: {
-			anyOf: [{
-				type: 'null'
-			}, {
-				type: 'string'
-			}]
+			type: 'string',
+			nullable: true
 		},
 		url: {
-			anyOf: [{
-				type: 'null'
-			}, {
-				type: 'string',
-				format: 'uri'
-			}]
+			type: 'string',
+			format: 'uri-template',
+			nullable: true
 		},
 		submenu: {
 			anyOf: [{
@@ -62,11 +53,8 @@ const item = {
 			}]
 		},
 		disableTracking: {
-			anyOf: [{
-				type: 'null'
-			}, {
-				type: 'boolean'
-			}]
+			type: 'boolean',
+			nullable: true
 		}
 	},
 	additionalProperties: false
@@ -77,7 +65,7 @@ const item = {
 // 	nameOfMenuObject: menu
 // }
 const root = {
-	id: 'root',
+	$id: 'root',
 	type: 'object',
 	minProperties: 1,
 	required: ['account', 'drawer-uk', 'drawer-international', 'user', 'anon', 'footer', 'navbar-simple', 'navbar-right', 'navbar-right-anon', 'navbar-uk', 'navbar-international'],
@@ -88,9 +76,11 @@ const root = {
 };
 
 const Ajv = require('ajv');
+const addFormats = require('ajv-formats').default;
 const ajv = new Ajv();
-ajv.addSchema(menu);
-ajv.addSchema(item);
-ajv.addSchema(root);
+addFormats(ajv);
+ajv.addSchema(menu, 'menu');
+ajv.addSchema(item, 'item');
+ajv.addSchema(root, 'root');
 
 module.exports = ajv;
