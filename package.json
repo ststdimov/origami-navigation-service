@@ -40,7 +40,7 @@
     "require-all": "^3",
     "snyk": "^1.893.0",
     "statuses": "^2.0.1",
-    "throng": "^4.0.0"
+    "throng": "^5.0.0"
   },
   "devDependencies": {
     "@financial-times/grafana-tools": "^2.0.1",
