@@ -180,6 +180,11 @@ links:
     label: "European Union"
     url: "/european-union"
     submenu:
+    
+  - &frenchelection
+    label: "French Presidential Election"
+    url: "/french-presidential-election"
+    submenu:
 
   - &latin_america
     label: "Americas"
