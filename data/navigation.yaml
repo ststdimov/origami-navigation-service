@@ -53,10 +53,12 @@ drawer-uk:
               label:
               items:
               - <<: *ukraine_conflict
+              - <<: *frenchelection
           - <<: *latin_america
           - <<: *middle_east_and_africa
           - <<: *australia_nz
           - <<: *ukraine_conflict
+          - <<: *frenchelection
       - <<: *uk
         submenu: &uk_submenu
           label:
