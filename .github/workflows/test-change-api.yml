@@ -2,7 +2,7 @@ name: Create new change log
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   make-change-log:

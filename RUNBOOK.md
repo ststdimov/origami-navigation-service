@@ -137,7 +137,7 @@ If the data is lost, the S3 bucket would need to be recreated manually. This pro
 
 ## Release Details
 
-The application is deployed to QA whenever a new commit is pushed to the `master` branch of this repo on GitHub. To release to production, the QA application must be [manually promoted through the Heroku interface](https://dashboard.heroku.com/pipelines/17603799-00d6-4e45-af5c-c21fb88321aa).
+The application is deployed to QA whenever a new commit is pushed to the `main` branch of this repo on GitHub. To release to production, the QA application must be [manually promoted through the Heroku interface](https://dashboard.heroku.com/pipelines/17603799-00d6-4e45-af5c-c21fb88321aa).
 
 ## Key Management Details
 

@@ -29,7 +29,7 @@ The navigation data is written in YAML and can be edited via the Github edit too
 
 Steps to edit navigation data:
 
-- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-service/edit/master/data/navigation.yaml)
+- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-service/edit/main/data/navigation.yaml)
 - Make the necessary changes
 - Press the "Commit changes" button
 - Add a comment which explains what you are changing and why
