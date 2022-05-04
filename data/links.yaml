@@ -526,6 +526,11 @@ links:
     url: "/cryptocurrencies"
     submenu:
 
+  - &digitalassetdashboard
+    label: "Digital assets dashboard"
+    url: "https://digitalassets.ft.com"
+    submenu:
+
   - &usdollar
     label: "US Dollar"
     url: "/us-dollar"
