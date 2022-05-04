@@ -181,6 +181,10 @@ drawer-uk:
           - <<: *moral_money
           - <<: *etf_hub
           - <<: *cryptocurrencies
+            submenu:
+              label:
+              items:
+              - <<: *digitalassetdashboard
       - <<: *climate_capital
       - <<: *opinion
         submenu: &opinion_submenu
