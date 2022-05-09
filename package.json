@@ -58,7 +58,7 @@
     "mockery": "^2",
     "nodemon": "^2.0.16",
     "proclaim": "^3.6.0",
-    "sinon": "^13",
+    "sinon": "^14",
     "supertest": "^6.2.3",
     "throat": "^6.0.1"
   },
