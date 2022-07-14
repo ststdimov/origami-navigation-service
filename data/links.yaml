@@ -522,8 +522,8 @@ links:
     submenu:
 
   - &cryptocurrencies
-    label: "Cryptocurrencies"
-    url: "/cryptocurrencies"
+    label: "Cryptofinance"
+    url: "/cryptofinance"
     submenu:
 
   - &digitalassetdashboard
