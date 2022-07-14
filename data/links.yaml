@@ -522,6 +522,11 @@ links:
     submenu:
 
   - &cryptocurrencies
+    label: "Cryptocurrencies"
+    url: "/cryptocurrencies"
+    submenu:
+
+  - &cryptofinance
     label: "Cryptofinance"
     url: "/cryptofinance"
     submenu:
