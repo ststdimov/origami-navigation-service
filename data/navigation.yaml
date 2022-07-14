@@ -180,7 +180,7 @@ drawer-uk:
               - <<: *derivatives
           - <<: *moral_money
           - <<: *etf_hub
-          - <<: *cryptocurrencies
+          - <<: *cryptofinance
             submenu:
               label:
               items:
