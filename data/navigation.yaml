@@ -137,6 +137,7 @@ drawer-uk:
           items:
           - <<: *alphaville
           - <<: *markets_data
+          - <<: *cryptofinance
           - <<: *capital_markets
           - <<: *commodities
             submenu:
@@ -180,7 +181,6 @@ drawer-uk:
               - <<: *derivatives
           - <<: *moral_money
           - <<: *etf_hub
-          - <<: *cryptofinance
             submenu:
               label:
               items:
