@@ -29,7 +29,6 @@ drawer-uk:
               items:
               - <<: *uk_economy
               - <<: *uk_politics_policy
-              - <<: *brexit
               - <<: *uk_companies
               - <<: *personal_finance
           - <<: *us
