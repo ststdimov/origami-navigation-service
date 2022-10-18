@@ -160,6 +160,11 @@ links:
     label: "US Companies"
     url: "/companies/us"
     submenu:
+    
+  - &us_midterm
+    label: "US midterm elections"
+    url: "/us-midterm-elections"
+    submenu:
 
   - &us_election
     label: "US Election 2016"
