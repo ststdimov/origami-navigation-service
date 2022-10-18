@@ -162,7 +162,7 @@ links:
     submenu:
     
   - &us_midterm
-    label: "US midterm elections"
+    label: "US Midterm Elections"
     url: "/us-midterm-elections"
     submenu:
 
