@@ -716,11 +716,6 @@ links:
     url: '/anjana-ahuja'
     submenu:
 
-  - &john_authers
-    label: 'John Authers'
-    url: '/john-authers'
-    submenu:
-
   - &pilita_clark
     label: 'Pilita Clark'
     url: '/pilita-clark'
@@ -761,19 +756,9 @@ links:
     url: "/edward-luce"
     submenu:
 
-  - &wolfgang_munchau
-    label: "Wolfgang Münchau"
-    url: "/wolfgang-munchau"
-    submenu:
-
   - &david_pilling
     label: "David Pilling"
     url: "/david-pilling"
-    submenu:
-
-  - &ingram_pinn
-    label: "Ingram Pinn"
-    url: "/ingram-pinn"
     submenu:
 
   - &gideon_rachman
@@ -799,11 +784,6 @@ links:
   - &philip_stephens
     label: "Philip Stephens"
     url: "/philip-stephens"
-    submenu:
-
-  - &lawrence_summers
-    label: "Lawrence Summers"
-    url: "/lawrence-summers"
     submenu:
 
   - &gillian_tett
@@ -836,11 +816,6 @@ links:
     url: '/gavyn-davies'
     submenu:
 
-  - &nick_butler
-    label: 'Nick Butler'
-    url: '/nick-butler'
-    submenu:
-
   - &david_gardner
     label: 'David Gardner'
     url: '/david-gardner'
@@ -849,11 +824,6 @@ links:
   - &michael_skapinker
     label: 'Michael Skapinker'
     url: '/michael-skapinker'
-    submenu:
-
-  - &izabella_kaminska
-    label: 'Izabella Kaminska'
-    url: '/izabella-kaminska'
     submenu:
 
   - &sarah_oconnor
@@ -999,6 +969,11 @@ links:
   - &globetrottertoronto
     label: "Toronto"
     url: "/globetrotter/toronto"
+    submenu:
+    
+  - &globetrottermadrid
+    label: "Madrid"
+    url: "/globetrotter/madrid"
     submenu:
 
   - &style
