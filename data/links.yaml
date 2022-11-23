@@ -193,12 +193,12 @@ links:
 
   - &latin_america
     label: "Americas"
-    url: "/world/americas"
+    url: "/americas"
     submenu:
 
   - &americas
     label: "Americas"
-    url: "/world/americas"
+    url: "/americas"
     submenu:
 
   - &asia_pacific
@@ -238,7 +238,7 @@ links:
 
   - &australia_nz
     label: "Australia & NZ"
-    url: "/australia-newzealand"
+    url: "/australia-new-zealand"
     submenu:
 
   - &ukraine_conflict
@@ -263,7 +263,7 @@ links:
 
   - &middle_east_and_africa
     label: "Middle East & North Africa"
-    url: "/world/mideast"
+    url: "/middle-east-north-africa"
     submenu:
 
   - &middle_eastern_politics_society
