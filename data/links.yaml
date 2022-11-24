@@ -158,9 +158,9 @@ links:
 
   - &us_companies
     label: "US Companies"
-    url: "/companies/us"
+    url: "/us-companies"
     submenu:
-    
+
   - &us_midterm
     label: "US Midterm Elections"
     url: "/us-midterm-elections"
@@ -298,47 +298,47 @@ links:
 
   - &financials
     label: "Financials"
-    url: "/companies/financials"
+    url: "/financials"
     submenu:
 
   - &banks
     label: "Banks"
-    url: "/companies/banks"
+    url: "/banks"
     submenu:
 
   - &insurance
     label: "Insurance"
-    url: "/companies/insurance"
+    url: "/insurance"
     submenu:
 
   - &property
     label: "Property"
-    url: "/companies/property"
+    url: "/property-sector"
     submenu:
 
   - &financial_services
     label: "Financial Services"
-    url: "/companies/financial-services"
+    url: "/financial-services"
     submenu:
 
   - &energy
     label: "Energy"
-    url: "/companies/energy"
+    url: "/energy"
     submenu:
 
   - &mining
     label: "Mining"
-    url: "/companies/mining"
+    url: "/mining"
     submenu:
 
   - &oil_gas
     label: "Oil & Gas"
-    url: "/companies/oil-gas"
+    url: "/oil-gas"
     submenu:
 
   - &utilities
     label: "Utilities"
-    url: "/companies/utilities"
+    url: "/utilities"
     submenu:
 
   - &energy_source
@@ -404,27 +404,27 @@ links:
 
   - &industrials
     label: "Industrials"
-    url: "/companies/industrials"
+    url: "/industrials"
     submenu:
 
   - &aerospace_defence
     label: "Aerospace & Defence"
-    url: "/companies/aerospace-defence"
+    url: "/aerospace-defence"
     submenu:
 
   - &automobiles
     label: "Automobiles"
-    url: "/companies/automobiles"
+    url: "/automobiles"
     submenu:
 
   - &basic_resources
     label: "Basic Resources"
-    url: "/companies/basic-resources"
+    url: "/basic-resources"
     submenu:
 
   - &chemicals
     label: "Chemicals"
-    url: "/companies/chemicals"
+    url: "/chemicals"
     submenu:
 
   - &construction
@@ -449,17 +449,17 @@ links:
 
   - &health
     label: "Health"
-    url: "/companies/health"
+    url: "/health"
     submenu:
 
   - &health_care
-    label: "Health Care"
-    url: "/companies/healthcare"
+    label: "Healthcare"
+    url: "/healthcare"
     submenu:
 
   - &pharmaceuticals
     label: "Pharmaceuticals"
-    url: "/companies/pharmaceuticals"
+    url: "/pharmaceuticals"
     submenu:
 
   - &media
