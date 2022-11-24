@@ -18,12 +18,12 @@ links:
 
   - &uk
     label: UK
-    url: "/world/uk"
+    url: "/world-uk"
     submenu:
 
   - &us
     label: US
-    url: "/world/us"
+    url: "/us"
     submenu:
 
   - &companies
@@ -103,7 +103,7 @@ links:
 
   - &uk_politics_policy
     label: "UK Politics & Policy"
-    url: "/world/uk/politics"
+    url: "/uk-politics-policy"
     submenu:
 
   - &brexit
@@ -148,7 +148,7 @@ links:
 
   - &us_politics_policy
     label: "US Politics & Policy"
-    url: "/world/us/politics"
+    url: "/us-politics-policy"
     submenu:
 
   - &us_society
@@ -178,7 +178,7 @@ links:
 
   - &europe
     label: "Europe"
-    url: "/world/europe"
+    url: "/europe"
     submenu:
 
   - &european_union
@@ -203,12 +203,12 @@ links:
 
   - &asia_pacific
     label: "Asia Pacific"
-    url: "/world/asia-pacific"
+    url: "/asia-pacific"
     submenu:
 
   - &china
     label: "China"
-    url: "/world/asia-pacific/china"
+    url: "/china"
     submenu:
 
   - &chinese_economy
@@ -248,7 +248,7 @@ links:
 
   - &africa
     label: "Africa"
-    url: "/world/africa"
+    url: "/africa"
     submenu:
 
   - &african_companies
