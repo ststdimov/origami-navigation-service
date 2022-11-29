@@ -38,7 +38,6 @@ drawer-uk:
               - <<: *us_economy
               - <<: *us_companies
               - <<: *us_politics_policy
-              - <<: *us_midterm
           - <<: *china
             submenu:
               label:
@@ -341,7 +340,6 @@ drawer-international:
           - <<: *us_economy
           - <<: *us_companies
           - <<: *us_politics_policy
-          - <<: *us_midterm
       - <<: *companies
         submenu: *companies_submenu
       - <<: *technology
