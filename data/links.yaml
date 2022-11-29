@@ -574,22 +574,22 @@ links:
 
   - &us_equities
     label: "US Equities"
-    url: "/markets/us"
+    url: "/us-equities"
     submenu:
 
   - &uk_equities
     label: "UK Equities"
-    url: "/markets/uk"
+    url: "/uk-equities"
     submenu:
 
   - &european_equities
     label: "European Equities"
-    url: "/markets/europe"
+    url: "/european-equities"
     submenu:
 
   - &asia_pacific_equities
     label: "Asia-Pacific Equities"
-    url: "/markets/asia-pacific"
+    url: "/asia-pacific-equities"
     submenu:
 
   - &capital_markets
@@ -634,12 +634,12 @@ links:
 
   - &clearing_settlement
     label: "Clearing & Settlement"
-    url: "/ft-trading-room/clearing-settlement"
+    url: "/clearing-settlement"
     submenu:
 
   - &high_frequency_trading
     label: "High Frequency Trading"
-    url: "/ft-trading-room/high-frequency-trading"
+    url: "/high-frequency-trading"
     submenu:
 
   - &markets_regulation
@@ -1119,27 +1119,27 @@ links:
 
   - &property_mortgages
     label: "Property & Mortgages"
-    url: "/personal-finance/mortgages"
+    url: "/mortgages"
     submenu:
 
   - &investments
     label: "Investments"
-    url: "/personal-finance/investments"
+    url: "/investments"
     submenu:
 
   - &pensions
     label: "Pensions"
-    url: "/personal-finance/pensions"
+    url: "/pensions"
     submenu:
 
   - &tax
     label: "Tax"
-    url: "/personal-finance/tax"
+    url: "/tax"
     submenu:
 
   - &banking_savings
     label: "Banking & Savings"
-    url: "/personal-finance/banking-savings"
+    url: "/banking-savings"
     submenu:
 
   - &epaper
@@ -1487,7 +1487,7 @@ links:
 
   - &advice&comment
     label: Advice & Comment
-    url: "/personal-finance/advice-commment"
+    url: "/advice-comment"
     submenu:
 
   - &securedrop
