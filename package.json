@@ -59,7 +59,7 @@
     "nodemon": "^2.0.20",
     "proclaim": "^3.6.0",
     "sinon": "^15",
-    "supertest": "^6.3.2",
+    "supertest": "^6.3.3",
     "throat": "^6.0.1"
   },
   "snyk": true,
