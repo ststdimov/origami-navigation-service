@@ -217,8 +217,18 @@ links:
     submenu:
 
   - &china_politics_policy
-    label: "China Politics & Policy"
+    label: "Chinese Politics & Policy"
     url: "/chinese-politics-policy"
+    submenu:
+
+  - &china_business_finance
+    label: "Chinese Business & Finance"
+    url: "/chinese-business-finance"
+    submenu:
+
+  - &china_trade
+    label: "Chinese Trade"
+    url: "/chinese-trade"
     submenu:
 
   - &japan
