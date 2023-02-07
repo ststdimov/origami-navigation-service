@@ -44,6 +44,8 @@ drawer-uk:
               items:
               - <<: *chinese_economy
               - <<: *china_politics_policy
+              - <<: *china_business_finance
+              - <<: *china_trade
           - <<: *africa
           - <<: *asia_pacific
           - <<: *emerging_markets
