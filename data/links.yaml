@@ -987,6 +987,11 @@ links:
     url: "/globetrotter/madrid"
     submenu:
 
+  - &globetrottermelbourne
+    label: "Melbourne"
+    url: "/globetrotter/melbourne"
+    submenu:
+
   - &style
     label: "Style"
     url: "/style"
