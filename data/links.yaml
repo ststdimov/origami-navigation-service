@@ -315,6 +315,11 @@ links:
     label: "Banks"
     url: "/banks"
     submenu:
+    
+  - &banksinturmoil
+    label: "Banks in turmoil"
+    url: "/banks-in-turmoil"
+    submenu:
 
   - &insurance
     label: "Insurance"
