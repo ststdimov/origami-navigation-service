@@ -991,6 +991,11 @@ links:
     label: "Madrid"
     url: "/globetrotter/madrid"
     submenu:
+    
+  - &globetrottercopenhagen
+    label: "Copenhagen"
+    url: "/globetrotter/copenhagen"
+    submenu:
 
   - &globetrottermelbourne
     label: "Melbourne"
