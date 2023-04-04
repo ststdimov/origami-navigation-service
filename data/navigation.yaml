@@ -71,7 +71,6 @@ drawer-uk:
         submenu: &companies_submenu
           label:
           items:
-          - <<: *banksinturmoil
           - <<: *energy
             submenu:
               label:
