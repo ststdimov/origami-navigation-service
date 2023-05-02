@@ -1127,6 +1127,11 @@ links:
     url: "/alphaville"
     submenu:
 
+  - &visual_data
+    label: "Visual and data journalism"
+    url: "/visual-and-data-journalism"
+    submenu:
+
   - &special_reports
     label: "Special Reports"
     url: "/special-reports"
