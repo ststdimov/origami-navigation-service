@@ -271,6 +271,7 @@ drawer-uk:
               - <<: *globetrotterfrankfurt
               - <<: *globetrottermadrid
               - <<: *globetrottercopenhagen
+              - <<: *globetrotterzurich
               - <<: *globetrotternewyorkcity
               - <<: *globetrottermiami
               - <<: *globetrottertoronto
