@@ -300,6 +300,7 @@ drawer-uk:
       - <<: *lex
       - <<: *alphaville
       - <<: *lunch_with_the_ft
+      - <<: *visual_data
       - <<: *globetrotter
       - <<: *tsa
       - <<: *moral_money
