@@ -265,20 +265,20 @@ drawer-uk:
             submenu:
               label:
               items:
+              - <<: *globetrottercopenhagen
+              - <<: *globetrotterfrankfurt
+              - <<: *globetrotterhongkong
               - <<: *globetrotterlondon
+              - <<: *globetrottermadrid
+              - <<: *globetrottermelbourne
+              - <<: *globetrottermiami
+              - <<: *globetrotternewyorkcity
               - <<: *globetrotterparis
               - <<: *globetrotterrome
-              - <<: *globetrotterfrankfurt
-              - <<: *globetrottermadrid
-              - <<: *globetrottercopenhagen
-              - <<: *globetrotterzurich
-              - <<: *globetrotternewyorkcity
-              - <<: *globetrottermiami
-              - <<: *globetrottertoronto
-              - <<: *globetrotterhongkong
-              - <<: *globetrottertokyo
               - <<: *globetrottersingapore
-              - <<: *globetrottermelbourne
+              - <<: *globetrottertokyo
+              - <<: *globetrottertoronto
+              - <<: *globetrotterzurich
       - <<: *personal_finance
         submenu: &personal_finance_submenu
           label:
