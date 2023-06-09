@@ -303,6 +303,7 @@ drawer-uk:
       - <<: *globetrotter
       - <<: *tsa
       - <<: *moral_money
+      - <<: *visual_data     
       - <<: *newsletters
       - <<: *video
       - <<: *podcasts
