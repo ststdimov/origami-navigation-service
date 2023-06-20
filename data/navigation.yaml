@@ -38,6 +38,7 @@ drawer-uk:
               - <<: *us_economy
               - <<: *us_companies
               - <<: *us_politics_policy
+              - <<: *us_presidentialelection
           - <<: *china
             submenu:
               label:
