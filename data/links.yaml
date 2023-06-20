@@ -72,8 +72,8 @@ links:
     submenu:
 
   - &us_presidentialelection
-    label: "US Presidential Election 2020"
-    url: "/us-presidential-election-2020"
+    label: "US Presidential Election 2024"
+    url: "/us-presidential-election-2024"
     submenu:
 
   - &asia_pacific_economy
