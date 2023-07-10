@@ -414,7 +414,7 @@ footer:
       items:
       - <<: *securedrop
       - <<: *individual_subscriptions
-      - <<: *group_subscriptions
+      - <<: *professional_subscriptions
       - <<: *republishing
       - <<: *executive_job_search
       - <<: *advertise_with_the_ft
