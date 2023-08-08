@@ -28,6 +28,7 @@ drawer-uk:
               label:
               items:
               - <<: *uk_economy
+              - <<: *uk_business
               - <<: *uk_politics_policy
               - <<: *uk_companies
               - <<: *personal_finance
