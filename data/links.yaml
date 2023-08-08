@@ -97,13 +97,23 @@ links:
     submenu:
 
   - &uk_economy
-    label: "UK Business & Economy"
-    url: "/uk-business-economy"
+    label: "UK Economy"
+    url: "/uk-economy"
+    submenu:
+
+  - &uk_business
+    label: "UK Business"
+    url: "/uk-business"
     submenu:
 
   - &uk_politics_policy
-    label: "UK Politics & Policy"
-    url: "/uk-politics-policy"
+    label: "UK Politics"
+    url: "/uk-politics"
+    submenu:
+
+  - &uk_public_policy
+    label: "UK Public Policy"
+    url: "/uk-public-policy"
     submenu:
 
   - &brexit
