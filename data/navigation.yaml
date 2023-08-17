@@ -302,7 +302,6 @@ drawer-uk:
       - <<: *alphaville
       - <<: *lunch_with_the_ft
       - <<: *globetrotter
-      - <<: *tsa
       - <<: *moral_money
       - <<: *visual_data
       - <<: *newsletters
