@@ -1012,6 +1012,11 @@ links:
     url: "/globetrotter/melbourne"
     submenu:
 
+  - &globetrottervancouver
+    label: "Vancouver"
+    url: "/globetrotter/vancouver"
+    submenu:
+  
   - &globetrotterzurich
     label: "Zurich"
     url: "/globetrotter/zurich"
