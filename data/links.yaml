@@ -1373,7 +1373,7 @@ links:
     submenu:
 
   - &ft_twitter
-    label: "Follow the FT on Twitter"
+    label: "Follow the FT on X"
     url: "https://twitter.com/financialtimes"
     submenu:
 
