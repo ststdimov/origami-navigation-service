@@ -10,16 +10,25 @@ Provides consistent navigation for FT applications. See [the production service]
 Table Of Contents
 -----------------
 
-  * [How to edit navigation data](#how-to-edit-navigation-data)
-  * [Requirements](#requirements)
-  * [Running Locally](#running-locally)
-  * [Configuration](#configuration)
-  * [Operational Documentation](#operational-documentation)
-  * [Testing](#testing)
-  * [Deployment](#deployment)
-  * [Monitoring](#monitoring)
-  * [Trouble-Shooting](#trouble-shooting)
-  * [License](#license)
+- [Origami Navigation Service](#origami-navigation-service)
+  - [Table Of Contents](#table-of-contents)
+  - [How to edit navigation data](#how-to-edit-navigation-data)
+  - [How to update example markup](#how-to-update-example-markup)
+  - [Requirements](#requirements)
+  - [Running Locally](#running-locally)
+  - [Configuration](#configuration)
+    - [Required everywhere](#required-everywhere)
+    - [Required in Heroku](#required-in-heroku)
+    - [Required locally](#required-locally)
+    - [Headers](#headers)
+  - [Operational Documentation](#operational-documentation)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Monitoring](#monitoring)
+  - [Trouble-Shooting](#trouble-shooting)
+    - [What do I do if memory usage is high?](#what-do-i-do-if-memory-usage-is-high)
+    - [What if I need to deploy manually?](#what-if-i-need-to-deploy-manually)
+  - [License](#license)
 
 
 How to edit navigation data
@@ -30,11 +39,13 @@ The navigation data is written in YAML and can be edited via the Github edit too
 Steps to edit navigation data:
 
 - Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-service/edit/main/data/navigation.yaml)
+- All requests for new or altered links, or other content changes to footer needs to be emailed and confirmed by [communications@ft.com](mailto:communications@ft.com) and all changed related to header will need to consulted with editorial stakeholders.
 - Make the necessary changes
 - Press the "Commit changes" button
 - Add a comment which explains what you are changing and why
 - Press the "Create pull request" button
 - Someone from [Origami](https://github.com/orgs/Financial-Times/teams/origami-core) will review your changes before merging them into production
+
 
 How to update example markup
 ---------------------------
