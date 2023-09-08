@@ -1374,7 +1374,7 @@ links:
 
   - &ft_twitter
     label: "Follow the FT on X"
-    url: "https://twitter.com/financialtimes"
+    url: "https://twitter.com/ft"
     submenu:
 
   - &alerts_hub
