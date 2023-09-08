@@ -418,8 +418,8 @@ footer:
       - <<: *republishing
       - <<: *executive_job_search
       - <<: *advertise_with_the_ft
-      - <<: *ft_channels
       - <<: *ft_twitter
+      - <<: *ft_channels
       - <<: *ft_schools
   - label: Tools
     url:
