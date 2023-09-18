@@ -1017,6 +1017,11 @@ links:
     url: "/globetrotter/vancouver"
     submenu:
   
+  - &globetrottermilan
+    label: "Milan"
+    url: "/globetrotter/milan"
+    submenu:
+  
   - &globetrotterzurich
     label: "Zurich"
     url: "/globetrotter/zurich"
