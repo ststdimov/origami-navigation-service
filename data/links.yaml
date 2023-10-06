@@ -36,6 +36,26 @@ links:
     url: "/technology"
     submenu:
 
+  - &ai
+    label: Artificial intelligence
+    url: "/artificial-intelligence"
+    submenu:
+
+  - &semiconductors
+    label: Semiconductors
+    url: "/semiconductors"
+    submenu:
+
+  - &cybersecurity
+    label: Cyber Security
+    url: "/cyber-security"
+    submenu:
+
+  - &socialmedia
+    label: Social Media
+    url: "/social-media"
+    submenu:
+
   - &markets
     label: Markets
     url: "/markets"
