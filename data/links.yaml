@@ -281,6 +281,11 @@ links:
     url: "/australia-new-zealand"
     submenu:
 
+  - &israel_hamas_war
+    label: "Israel-Hamas war"
+    url: "/israel-hamas-war"
+    submenu:
+
   - &ukraine_conflict
     label: "War in Ukraine"
     url: "/war-in-ukraine"
