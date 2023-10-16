@@ -22,6 +22,7 @@ drawer-uk:
         submenu: &world_submenu
           label:
           items:
+          - <<: *israel_hamas_war
           - <<: *global_economy
           - <<: *uk
             submenu:
@@ -58,7 +59,6 @@ drawer-uk:
           - <<: *ukraine_conflict
           - <<: *latin_america
           - <<: *middle_east_and_africa
-          - <<: *israel_hamas_war
       - <<: *uk
         submenu: &uk_submenu
           label:
