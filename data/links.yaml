@@ -552,6 +552,11 @@ links:
     url: "https://etf.ft.com"
     submenu:
 
+  - &ft_wealth_management
+    label: "FT Wealth Management"
+    url: "/ft-wealth-management"
+    submenu:
+
   - &commodities
     label: "Commodities"
     url: "/commodities"
