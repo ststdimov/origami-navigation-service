@@ -37,6 +37,7 @@ drawer-uk:
               label:
               items:
               - <<: *us_economy
+              - <<: *investing_in_america
               - <<: *us_companies
               - <<: *us_politics_policy
               - <<: *us_presidentialelection
