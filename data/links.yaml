@@ -553,7 +553,7 @@ links:
     submenu:
 
   - &ft_wealth_management
-    label: "FT Wealth Management"
+    label: "Wealth Management"
     url: "/ft-wealth-management"
     submenu:
 
