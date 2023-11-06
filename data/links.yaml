@@ -96,6 +96,11 @@ links:
     url: "/us-presidential-election-2024"
     submenu:
 
+  - &investing_in_america
+    label: "Investing in America"
+    url: "/investing-in-america"
+    submenu:
+
   - &asia_pacific_economy
     label: "Asia-Pacific Economy"
     url: "/global-economy/asia-pacific"
