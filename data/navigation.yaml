@@ -180,6 +180,7 @@ drawer-uk:
               - <<: *ftfm
               - <<: *funds_regulation
               - <<: *pensions_industry
+          - <<: *ft_wealth_management
           - <<: *trading
             submenu:
               label:
