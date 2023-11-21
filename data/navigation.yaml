@@ -220,6 +220,7 @@ drawer-uk:
           - <<: *recruitment
           - <<: *business_books
           - <<: *business_travel
+          - <<: *working_it
       - <<: *life_arts
         submenu: &life_arts_submenu
           label:
