@@ -22,6 +22,7 @@ drawer-uk:
         submenu: &world_submenu
           label:
           items:
+          - <<: *israel_hamas_war
           - <<: *global_economy
           - <<: *uk
             submenu:
@@ -36,6 +37,7 @@ drawer-uk:
               label:
               items:
               - <<: *us_economy
+              - <<: *investing_in_america
               - <<: *us_companies
               - <<: *us_politics_policy
               - <<: *us_presidentialelection
@@ -58,7 +60,6 @@ drawer-uk:
           - <<: *ukraine_conflict
           - <<: *latin_america
           - <<: *middle_east_and_africa
-          - <<: *australia_nz
       - <<: *uk
         submenu: &uk_submenu
           label:
@@ -133,6 +134,13 @@ drawer-uk:
               - <<: *shipping
               - <<: *rail
       - <<: *technology
+        submenu: &technology_submenu
+          label:
+          items:
+          - <<: *ai
+          - <<: *semiconductors
+          - <<: *cybersecurity
+          - <<: *socialmedia
       - <<: *markets
         submenu: &markets_submenu
           label:
@@ -172,6 +180,7 @@ drawer-uk:
               - <<: *ftfm
               - <<: *funds_regulation
               - <<: *pensions_industry
+          - <<: *ft_wealth_management
           - <<: *trading
             submenu:
               label:
@@ -211,6 +220,7 @@ drawer-uk:
           - <<: *recruitment
           - <<: *business_books
           - <<: *business_travel
+          - <<: *working_it
       - <<: *life_arts
         submenu: &life_arts_submenu
           label:
@@ -273,12 +283,14 @@ drawer-uk:
               - <<: *globetrottermadrid
               - <<: *globetrottermelbourne
               - <<: *globetrottermiami
+              - <<: *globetrottermilan
               - <<: *globetrotternewyorkcity
               - <<: *globetrotterparis
               - <<: *globetrotterrome
               - <<: *globetrottersingapore
               - <<: *globetrottertokyo
               - <<: *globetrottertoronto
+              - <<: *globetrottervancouver
               - <<: *globetrotterzurich
       - <<: *personal_finance
         submenu: &personal_finance_submenu
@@ -344,6 +356,7 @@ drawer-international:
       - <<: *companies
         submenu: *companies_submenu
       - <<: *technology
+        submenu: *technology_submenu
       - <<: *markets
         submenu: *markets_submenu
       - <<: *climate_capital
@@ -405,6 +418,7 @@ footer:
       - <<: *terms_conditions
       - <<: *privacy
       - <<: *cookies
+      - <<: *cookies_management
       - <<: *copyright
       - <<: *slavery_statement
   - label: Services
@@ -463,6 +477,7 @@ navbar-simple:
 navbar-right:
   label: Navigation
   items:
+  - <<: *digital_edition
   - <<: *portfolio
   - <<: *my_account
 
@@ -485,6 +500,7 @@ navbar-uk:
   - <<: *companies
     submenu: *companies_submenu
   - <<: *technology
+    submenu: *technology_submenu
   - <<: *markets
     submenu: *markets_submenu
   - <<: *climate_capital
@@ -507,6 +523,7 @@ navbar-international:
   - <<: *companies
     submenu: *companies_submenu
   - <<: *technology
+    submenu: *technology_submenu
   - <<: *markets
     submenu: *markets_submenu
   - <<: *climate_capital

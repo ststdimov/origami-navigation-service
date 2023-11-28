@@ -36,6 +36,26 @@ links:
     url: "/technology"
     submenu:
 
+  - &ai
+    label: Artificial intelligence
+    url: "/artificial-intelligence"
+    submenu:
+
+  - &semiconductors
+    label: Semiconductors
+    url: "/semiconductors"
+    submenu:
+
+  - &cybersecurity
+    label: Cyber Security
+    url: "/cyber-security"
+    submenu:
+
+  - &socialmedia
+    label: Social Media
+    url: "/social-media"
+    submenu:
+
   - &markets
     label: Markets
     url: "/markets"
@@ -74,6 +94,11 @@ links:
   - &us_presidentialelection
     label: "US Presidential Election 2024"
     url: "/us-presidential-election-2024"
+    submenu:
+
+  - &investing_in_america
+    label: "Investing in America"
+    url: "/investing-in-america"
     submenu:
 
   - &asia_pacific_economy
@@ -259,6 +284,11 @@ links:
   - &australia_nz
     label: "Australia & NZ"
     url: "/australia-new-zealand"
+    submenu:
+
+  - &israel_hamas_war
+    label: "Israel-Hamas war"
+    url: "/israel-hamas-war"
     submenu:
 
   - &ukraine_conflict
@@ -525,6 +555,11 @@ links:
   - &etf_hub
     label: "ETF Hub"
     url: "https://etf.ft.com"
+    submenu:
+
+  - &ft_wealth_management
+    label: "Wealth Management"
+    url: "/ft-wealth-management"
     submenu:
 
   - &commodities
@@ -1017,6 +1052,11 @@ links:
     url: "/globetrotter/vancouver"
     submenu:
   
+  - &globetrottermilan
+    label: "Milan"
+    url: "/globetrotter/milan"
+    submenu:
+  
   - &globetrotterzurich
     label: "Zurich"
     url: "/globetrotter/zurich"
@@ -1122,6 +1162,11 @@ links:
     url: "/management"
     submenu:
 
+  - &working_it
+    label: "Working It"
+    url: "/working-it"
+    submenu:
+
   - &entrepreneurship
     label: "Entrepreneurship"
     url: "/entrepreneurship"
@@ -1192,8 +1237,13 @@ links:
     url: "/banking-savings"
     submenu:
 
+  - &digital_edition
+    label: "Digital Edition"
+    url: "https://www.ft.com/todaysnewspaper"
+    submenu:
+
   - &epaper
-    label: "Today's Newspaper (ePaper)"
+    label: "Today’s Newspaper (FT Digital Edition)"
     url: "https://www.ft.com/todaysnewspaper"
     submenu:
 
@@ -1333,8 +1383,13 @@ links:
     submenu:
 
   - &cookies
-    label: "Cookies"
+    label: "Cookie Policy"
     url: "https://help.ft.com/help/legal-privacy/cookies/"
+    submenu:
+
+  - &cookies_management
+    label: "Manage Cookies"
+    url: "https://www.ft.com/preferences/manage-cookies"
     submenu:
 
   - &copyright
@@ -1374,7 +1429,7 @@ links:
 
   - &ft_twitter
     label: "Follow the FT on X"
-    url: "https://twitter.com/financialtimes"
+    url: "https://twitter.com/ft"
     submenu:
 
   - &alerts_hub
