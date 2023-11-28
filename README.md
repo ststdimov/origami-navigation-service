@@ -10,16 +10,23 @@ Provides consistent navigation for FT applications. See [the production service]
 Table Of Contents
 -----------------
 
-  * [How to edit navigation data](#how-to-edit-navigation-data)
-  * [Requirements](#requirements)
-  * [Running Locally](#running-locally)
-  * [Configuration](#configuration)
-  * [Operational Documentation](#operational-documentation)
-  * [Testing](#testing)
-  * [Deployment](#deployment)
-  * [Monitoring](#monitoring)
-  * [Trouble-Shooting](#trouble-shooting)
-  * [License](#license)
+- [Origami Navigation Service](#origami-navigation-service)
+  - [Table Of Contents](#table-of-contents)
+  - [How to edit navigation data](#how-to-edit-navigation-data)
+  - [How to update example markup](#how-to-update-example-markup)
+  - [Requirements](#requirements)
+  - [Running Locally](#running-locally)
+  - [Configuration](#configuration)
+    - [Required everywhere](#required-everywhere)
+    - [Required in Heroku](#required-in-heroku)
+  - [Operational Documentation](#operational-documentation)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Monitoring](#monitoring)
+  - [Trouble-Shooting](#trouble-shooting)
+    - [What do I do if memory usage is high?](#what-do-i-do-if-memory-usage-is-high)
+    - [What if I need to deploy manually?](#what-if-i-need-to-deploy-manually)
+  - [License](#license)
 
 
 How to edit navigation data
@@ -59,6 +66,11 @@ Before we can run the application, we'll need to install dependencies:
 ```sh
 npm install
 ```
+And then we'll need to build the application:
+
+```sh
+npm run build
+```
 
 Run the application in development mode with
 
@@ -66,41 +78,33 @@ Run the application in development mode with
 make run-dev
 ```
 
-Now you can access the app over HTTP on port `8080`: [http://localhost:8080/](http://localhost:8080/)
+Now you can access the app over HTTP on port `8080`: [http://localhost:8080/__origami/service/navigation/v2](http://localhost:8080/__origami/service/navigation/v2)
 
 
 Configuration
 -------------
 
-We configure Origami Navigation Service using environment variables. In development, configurations are set in a `.env` file. In production, these are set through Heroku config. Further documentation on the available options can be found in the [Origami Service documentation][service-options].
+We configure Origami Navigation Service using environment variables. In local development, we don't have to configure `.env` file unless you would like to specify `NODE_ENV` or `PORT`. In production, these are set through doppler project config.
 
 ### Required everywhere
 
-  * `NAVIGATION_DATA_STORE`: The location of the JSON navigation data that powers the service. This should be a URL.
   * `NODE_ENV`: The environment to run the application in. One of `production`, `development` (default), or `test` (for use in automated tests).
   * `PORT`: The port to run the application on.
 
 ### Required in Heroku
 
+  * `CHANGE_API_KEY`: The change-log API key to use when creating and closing change-logs.
   * `CMDB_API_KEY`: The API key to use when performing CMDB operations
   * `FASTLY_PURGE_API_KEY`: A Fastly API key which is used to purge URLs (when somebody POSTs to the `/purge` endpoint)
+  * `FT_GRAPHITE_APP_UUID`: The UUID of the application in Graphite.
   * `GRAPHITE_API_KEY`: The FT's internal Graphite API key.
   * `PURGE_API_KEY`: The API key to require when somebody POSTs to the `/purge` endpoint. This should be a non-memorable string, for example a UUID
-  * `REGION`: The region the application is running in. One of `QA`, `EU`, or `US`
-  * `CHANGE_API_KEY`: The change-log API key to use when creating and closing change-logs.
   * `RELEASE_ENV`: The Salesforce environment to include in change-logs. One of `Test` or `Production`
+  * `RELEASE_LOG_API_KEY`: The change request API key to use when creating and closing release logs
+  * `RELEASE_LOG_ENVIRONMENT`: The environment to include in release-logs. One of `Test` or `Production`
+  * `REGION`: The region the application is running in. One of `QA`, `EU`, or `US`
   * `SENTRY_DSN`: The Sentry URL to send error information to.
-
-### Required locally
-
-  * `GRAFANA_API_KEY`: The API key to use when using Grafana push/pull
-
-### Headers
-
-The service can also be configured by sending HTTP headers, these would normally be set in your CDN config:
-
-  * `FT-Origami-Service-Base-Path`: The base path for the service, this gets prepended to all paths in the HTML and ensures that redirects work when the CDN rewrites URLs.
-
+  * `SYSTEM_CODE`: The BizOps system code
 
 Operational Documentation
 -------------------------
